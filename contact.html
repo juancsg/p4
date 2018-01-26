@@ -11,6 +11,8 @@
 			</div>
 		<br>
 	<img src="https://48palw1jqfwf1zkjitvyccc1-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/PalmTreesInSnow_Still6-1024x683.jpg">
+		
+		<form>
 		<br>
 		<br>
 		<labal>Name<br>
@@ -19,29 +21,31 @@
 				<br>
 		<label> Interest</label>
 		<br>
-	<select name="Transportation">
-  			<option>Bike</option>
-  			<option>Car</option>
-			</select>
-				<br>
-		<div>
-        <label> Income</label>
+	<label> Transportation</label>
         <br>
-        <input type="checkbox" name="income" value="-15K">-15K<br>
-        <input type="checkbox" name="income" value="15-20K">15-20K<br>
-        <input type="checkbox" name="income" value="+25K">+25K<br>
-    </div>
-		<form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Juan C"><br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Salgado"><br><br>
-  <input type="submit" value="Submit">
-  <input type="reset">
-</form>
-		<footer>
-			<a href="index.html">Home</a>
-			<a href="contact.html">Contact</a>
-		</footer>
-	</body>
+    <select name="Transportation"><br>
+             <option>Bike</option>
+             <option>Car</option><option>Transit</option>
+             <option>Lyft</option>
+            </select>
+        <br>
+        <label> Income</label>
+    
+        <br>
+        <input type="checkbox" name="income" value="15">15k
+        <br>
+        <input type="checkbox" name="income" value="20">15-20k
+        <br>
+        <input type="checkbox" name="income" value="25">25k+<br>
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" value="Send">
+    
+    </form>
+    
+    <br>
+    <footer><a href="index.html">Home</a><br>
+        <a href="contact.html">Contact</a>
+    </footer>
+</body>
+
 </html>
